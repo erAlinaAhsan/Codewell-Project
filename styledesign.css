@@ -14,6 +14,7 @@
 }
 
 .container.banner .navbar h1 {
+    display: flex;
     font-weight: bolder;
     font-size: 200% !important;
     color: black;
@@ -23,6 +24,7 @@
 }
 
 .container.banner .navbar span {
+    display: flex;
     font-weight: 550;
     font-size: medium;
     color: rgba(0, 0, 0, .55);
@@ -31,6 +33,7 @@
 
 
 .container {
+    display: flex;
     width: 97.2vw;
     height: 94vh;
     background-color: #d5eff7;
@@ -41,6 +44,7 @@
 }
 
 .container.banner {
+    display: flex;
     background-image: url(image.png);
     background-position: right 200px top 150px;
     background-size: 35vw 80vh;
@@ -58,11 +62,10 @@
 
 .container button {
     display: flex;
-    /* background-color: #1890ff; */
-    background-color: white;
+    background-color: #1890ff;
     border-color: #1890ff;
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 700;
     width: 13vw;
     height: 56px;
     background-repeat: no-repeat;
