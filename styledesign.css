@@ -131,6 +131,8 @@
 }
 
 .container.banner footer {
+    position: sticky;
+    bottom: 0;
     background-color: rgba(35, 122, 252, 0.71);
     color: #fff;
     visibility: visible;
