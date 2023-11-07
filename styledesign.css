@@ -13,8 +13,8 @@
     border-radius: 5px;
 }
 
+
 .container.banner .navbar h1 {
-    display: flex;
     font-weight: bolder;
     font-size: 200% !important;
     color: black;
@@ -24,16 +24,18 @@
 }
 
 .container.banner .navbar span {
-    display: flex;
     font-weight: 550;
     font-size: medium;
     color: rgba(0, 0, 0, .55);
     padding: 8px;
 }
 
+.container .navbar button {
+    margin-left: 200px;
+    /* Pushes the button to the right */
+}
 
 .container {
-    display: flex;
     width: 97.2vw;
     height: 94vh;
     background-color: #d5eff7;
@@ -44,7 +46,6 @@
 }
 
 .container.banner {
-    display: flex;
     background-image: url(image.png);
     background-position: right 200px top 150px;
     background-size: 35vw 80vh;
@@ -63,23 +64,82 @@
 .container button {
     display: flex;
     background-color: #1890ff;
-    border-color: #1890ff;
+    border-color: #2696ff;
     border-radius: 5px;
-    font-weight: 700;
-    width: 13vw;
+    width: 13.5vw;
     height: 56px;
     background-repeat: no-repeat;
     align-items: center;
     text-align: end;
     margin-left: 200px;
+    margin-top: 30px;
     font-size: 14px;
-    padding-left: 15px;
+    padding-left: 16px;
 }
 
 .container button span {
-    padding-left: 8px;
+    padding-left: 10px;
+    color: #fff;
+    font-weight: 700;
 }
 
 .container button img {
     width: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.container button:hover {
+    background-color: #379eff;
+}
+
+.container.banner .navbar button {
+    display: flex;
+    padding-left: 10px;
+    width: 14vw;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.container.banner .navbar button span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.container.banner h4 {
+    font-weight: 600;
+    color: #4a4a4a;
+    margin: 30px;
+    margin-left: 200px;
+}
+
+.container.banner h3::before {
+    content: "\2713";
+    margin-right: 10px;
+    margin-left: 200px;
+    font-weight: 600;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Add this CSS in your "styledesign.css" file */
+
+.container.banner {
+    position: relative;
+}
+
+.container.banner footer {
+    background-color: rgba(35, 122, 252, 0.71);
+    color: #fff;
+    visibility: visible;
+    padding: 30px 30px;
+    text-align: left;
+    margin-bottom: 140px;
+}
+
+
+.container.banner footer span {
+    text-decoration: underline;
 }
